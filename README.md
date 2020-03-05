@@ -12,7 +12,11 @@ Udacity DataScience Nanodegree Project 1 - AirBnB Data Exploration
 
 ## Installation <a name="installation"></a>
 
-There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python 3.  The code should run with no issues using Python versions 3.*.
+The code was developed and tested using Python 3.6.7, with the standard Anaconda install and the package `basemap` for visualizing results in map-view.
+Basemap installations were run as follows:
+`!conda install basemap`
+`!conda install -c conda-forge basemap-data-hires`
+The code should run with no issues using Python versions 3.6 +
 
 ## Project Motivation<a name="motivation"></a>
 
