@@ -41,12 +41,14 @@ The following Airbnb activity is included in this Seattle dataset:
   1) `listings.csv`: full descriptions of listings and average review score
   2) `reviews.csv`: unique id for each reviewer and detailed comments
   3) `calendar.csv`: listing id and the price and availability for that day
+  
+  For this analysis, I only used the `listings.csv` file.
 
 ## File Descriptions <a name="files"></a>
 
 There are 2 Jupyter notebooks in this repository to showcase work related to the above questions.  Each of the notebooks is exploratory in nature, and include markdown cells to explain and describe the exploration process.  
 
-The notebooks that are related to the analysis presented in the medium blog (see below) are here:
+The notebooks that are related to the analysis presented in the medium blog (see below) are located here:
 
 ipynb/1_seattle_airbnb_neighborhood_exploration.ipynb
 ipynb/2_seattle_airbnb_cleanliness_model.ipynb
@@ -59,4 +61,4 @@ The main findings of the code can be found at the post available [here](https://
 
 ## Licensing, Authors, Acknowledgments <a name="licensing"></a>
 
-Data is provided by http://insideairbnb.com/get-the-data.html and hosted on [kaggle]https://www.kaggle.com/airbnb/seattle/data, which also includes the licensing information. The code here is licensed under open source GNU ..., and is free to use as you would like! 
+Data is provided by [insideairbnb](http://insideairbnb.com/get-the-data.html) and hosted on [kaggle](https://www.kaggle.com/airbnb/seattle/data), which also includes the licensing information. The code here is licensed under open source GNU General Public License v3.0, and is free to use as you wish, with no guarantees :)
