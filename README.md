@@ -14,10 +14,14 @@ Udacity DataScience Nanodegree Project 1 - AirBnB Data Exploration
 
 The code was developed and tested using Python 3.6.7, and pandas version 0.25.0, with the standard Anaconda install and the package `basemap` for visualizing results in map-view.
 Basemap installations were run using conda as follows:
-    - `conda install basemap`
-    - `conda install -c conda-forge basemap-data-hires`
+    
+    1) `conda install basemap`
+    2) `conda install -c conda-forge basemap-data-hires`
+    
 Pandas upgrade to 0.25.0 was installed with pip3 as follows:
-    - `pip install pandas==0.25.0`
+    
+    3) `pip install pandas==0.25.0`
+    
 The code should run with no issues using Python versions 3.6 + and pandas version 0.25.0+
 
 ## Project Motivation<a name="motivation"></a>
@@ -34,9 +38,9 @@ The full set of files related to this course are stored on kaggle at the followi
 
 The following Airbnb activity is included in this Seattle dataset:
 
-  1) listings.csv: full descriptions of listings and average review score
-  2) reviews.csv: unique id for each reviewer and detailed comments
-  3) calendar.csv: listing id and the price and availability for that day
+  1) `listings.csv`: full descriptions of listings and average review score
+  2) `reviews.csv`: unique id for each reviewer and detailed comments
+  3) `calendar.csv`: listing id and the price and availability for that day
 
 ## File Descriptions <a name="files"></a>
 
@@ -50,4 +54,4 @@ The main findings of the code can be found at the post available [here](https://
 
 ## Licensing, Authors, Acknowledgments <a name="licensing"></a>
 
-Data is provided by http://insideairbnb.com/get-the-data.html and hosted on https://www.kaggle.com/airbnb/seattle/data, which also includes the licensing information. The code here is licensed uner open source GNU ..., and is free to use as you would like! 
+Data is provided by http://insideairbnb.com/get-the-data.html and hosted on https://www.kaggle.com/airbnb/seattle/data, which also includes the licensing information. The code here is licensed under open source GNU ..., and is free to use as you would like! 
