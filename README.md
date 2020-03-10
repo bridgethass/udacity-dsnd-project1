@@ -50,10 +50,10 @@ There are 2 Jupyter notebooks in this repository to showcase work related to the
 
 The notebooks that are related to the analysis presented in the medium blog (see below) are located here:
 
-ipynb/1_seattle_airbnb_neighborhood_exploration.ipynb
-ipynb/2_seattle_airbnb_cleanliness_model.ipynb
+    1) airbnb/ipynb/1_seattle_airbnb_neighborhood_exploration.ipynb
+    2) airbnb/ipynb/2_seattle_airbnb_cleanliness_model.ipynb
 
-The other notebooks starting with 0_ or scratch_ include additional exploratory analaysis that preceded the two notebooks listed, but outside of the scope. 
+The other notebooks starting with 0_* or scratch_* include additional exploratory analaysis that preceded the two notebooks listed, so are ancillary. 
 
 ## Results<a name="results"></a>
 
