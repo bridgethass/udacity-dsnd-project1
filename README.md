@@ -46,18 +46,17 @@ The following Airbnb activity is included in this Seattle dataset:
 
 ## File Descriptions <a name="files"></a>
 
-There are 2 Jupyter notebooks in this repository to showcase work related to the above questions.  Each of the notebooks is exploratory in nature, and include markdown cells to explain and describe the exploration process.  
+There is 1 Jupyter notebook in this repository to showcase work related to the above questions.  Each of the notebooks is exploratory in nature, and include markdown cells to explain and describe the exploration process.  
 
 The notebooks that are related to the analysis presented in the medium blog (see below) are located here:
 
-    1) airbnb/ipynb/1_seattle_airbnb_neighborhood_exploration.ipynb
-    2) airbnb/ipynb/2_seattle_airbnb_cleanliness_model.ipynb
+    1) airbnb/ipynb/seattle_airbnb_neighborhood_exploration.ipynb
 
-The other notebooks starting with 0_* or scratch_* include additional exploratory analaysis that preceded the two notebooks listed, so are ancillary. 
+The other notebooks in the scratch_ipynb folder include additional related exploratory analaysis that preceded the two notebooks listed, and include some potentially useful information, but are outside the scope of this project.
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://medium.com/@bridgethass/whered-the-hippies-go-aee4b0876dc7?sk=de76f5fbe027d3635c9fb8d50e5fbfcc).
+The main findings of the code can be found at the post available here: [whered-the-hippies-go](https://medium.com/@bridgethass/whered-the-hippies-go-aee4b0876dc7).
 
 ## Licensing, Authors, Acknowledgments <a name="licensing"></a>
 
