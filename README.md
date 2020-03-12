@@ -28,9 +28,9 @@ The code should run with no issues using Python versions 3.6 + and pandas versio
 
 For this project, I was interested in using Seattle AirBnB data to better understand:
 
-    1) which variables are best predictors for the overall review score?
-    2) do review scores vary significantly between different neighborhoods?
-    3) which neighborhoods provide the best value (ratings/price ratio)?
+    1) Are hippies really dirty: do the hippy neighborhoods in Seattle have lower AirBnB cleanliness ratings?
+    2) Are communal AirBnB listings more common in hippy neighborhoods: Which neighborhoods have the highest proportion of shared-living listings?
+    3) Which factors contribute most to the cleanliness rating?
 
 ## Data Descriptions <a name="data"></a>
 
@@ -41,17 +41,24 @@ The following Airbnb activity is included in this Seattle dataset:
   1) `listings.csv`: full descriptions of listings and average review score
   2) `reviews.csv`: unique id for each reviewer and detailed comments
   3) `calendar.csv`: listing id and the price and availability for that day
+  
+  For this analysis, I only used the `listings.csv` file.
 
 ## File Descriptions <a name="files"></a>
 
-There are __ Jupyter notebooks in this repository to showcase work related to the above questions.  Each of the notebooks is exploratory in nature, and include markdown cells to explain and describe the exploration process.  
+There are 2 Jupyter notebooks in this repository to showcase work related to the above questions.  Each of the notebooks is exploratory in nature, and include markdown cells to explain and describe the exploration process.  
 
-There is an additional `.py` file that runs the necessary code to obtain the final model used to predict salary.
+The notebooks that are related to the analysis presented in the medium blog (see below) are located here:
+
+    1) airbnb/ipynb/1_seattle_airbnb_neighborhood_exploration.ipynb
+    2) airbnb/ipynb/2_seattle_airbnb_cleanliness_model.ipynb
+
+The other notebooks starting with 0_* or scratch_* include additional exploratory analaysis that preceded the two notebooks listed, so are ancillary. 
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://medium.com/...).
+The main findings of the code can be found at the post available [here](https://medium.com/@bridgethass/whered-the-hippies-go-aee4b0876dc7?sk=de76f5fbe027d3635c9fb8d50e5fbfcc).
 
 ## Licensing, Authors, Acknowledgments <a name="licensing"></a>
 
-Data is provided by http://insideairbnb.com/get-the-data.html and hosted on https://www.kaggle.com/airbnb/seattle/data, which also includes the licensing information. The code here is licensed under open source GNU ..., and is free to use as you would like! 
+Data is provided by [insideairbnb](http://insideairbnb.com/get-the-data.html) and hosted on [kaggle](https://www.kaggle.com/airbnb/seattle/data), which also includes the licensing information. The code here is licensed under open source GNU General Public License v3.0, and is free to use as you wish, with no guarantees :)
